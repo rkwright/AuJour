@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550CB7652A3B85340050A587 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CB7642A3B85340050A587 /* Reminder.swift */; };
 		552797A12A3A458D00EB6954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552797A02A3A458D00EB6954 /* AppDelegate.swift */; };
 		552797A32A3A458D00EB6954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552797A22A3A458D00EB6954 /* SceneDelegate.swift */; };
 		552797A52A3A458D00EB6954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552797A42A3A458D00EB6954 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		550CB7642A3B85340050A587 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		5527979D2A3A458D00EB6954 /* AuJour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuJour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552797A02A3A458D00EB6954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552797A22A3A458D00EB6954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550CB7632A3B84C90050A587 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				550CB7642A3B85340050A587 /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		552797942A3A458D00EB6954 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		5527979F2A3A458D00EB6954 /* AuJour */ = {
 			isa = PBXGroup;
 			children = (
+				550CB7632A3B84C90050A587 /* Models */,
 				552797A02A3A458D00EB6954 /* AppDelegate.swift */,
 				552797A22A3A458D00EB6954 /* SceneDelegate.swift */,
 				552797A42A3A458D00EB6954 /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				552797A52A3A458D00EB6954 /* ViewController.swift in Sources */,
 				552797A12A3A458D00EB6954 /* AppDelegate.swift in Sources */,
 				552797A32A3A458D00EB6954 /* SceneDelegate.swift in Sources */,
+				550CB7652A3B85340050A587 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
