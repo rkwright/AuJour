@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		550CB7652A3B85340050A587 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CB7642A3B85340050A587 /* Reminder.swift */; };
+		550CB7672A3BA2400050A587 /* Date_Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CB7662A3BA2400050A587 /* Date_Today.swift */; };
 		552797A12A3A458D00EB6954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552797A02A3A458D00EB6954 /* AppDelegate.swift */; };
 		552797A32A3A458D00EB6954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552797A22A3A458D00EB6954 /* SceneDelegate.swift */; };
 		552797A52A3A458D00EB6954 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552797A42A3A458D00EB6954 /* ReminderListViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		550CB7642A3B85340050A587 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		550CB7662A3BA2400050A587 /* Date_Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_Today.swift; sourceTree = "<group>"; };
 		5527979D2A3A458D00EB6954 /* AuJour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuJour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552797A02A3A458D00EB6954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552797A22A3A458D00EB6954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				550CB7642A3B85340050A587 /* Reminder.swift */,
+				550CB7662A3BA2400050A587 /* Date_Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				552797A12A3A458D00EB6954 /* AppDelegate.swift in Sources */,
 				552797A32A3A458D00EB6954 /* SceneDelegate.swift in Sources */,
 				550CB7652A3B85340050A587 /* Reminder.swift in Sources */,
+				550CB7672A3BA2400050A587 /* Date_Today.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
